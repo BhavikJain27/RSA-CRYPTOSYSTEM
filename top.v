@@ -22,7 +22,7 @@
 
 //MODULUS MUST BE AN ODD NUMBER
 
-module expo_mont #(parameter in_bit = 3, mod_bit = 5, expo_bit = 3)(
+module top #(parameter in_bit = 3, mod_bit = 5, expo_bit = 3)(
 input [in_bit-1:0] in,
 input [mod_bit-1:0] n, n_inv, 
 input [expo_bit-1:0] exp,
